@@ -38,7 +38,6 @@ public class HelloController {
         return "hello";
     }
 
-
     @GetMapping("form")
     public String helloForm() {
         return "form";
